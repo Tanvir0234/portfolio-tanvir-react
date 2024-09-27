@@ -1,0 +1,50 @@
+.image-div{
+    
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 50%;
+    margin: 20px 0;
+    padding: 0 22px;
+    background: grey;
+    animation: zoomin 1s linear 1;
+    animation-delay: 5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomin{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+
+.image-div img{
+    height: 400px;
+    margin-bottom: 25PX;
+    margin-top: 25PX;
+    margin-top: -5px;
+    margin-left: 5px;
+
+}
+.banner-content{
+    animation: moveright 1s linear 1;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveright{
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}

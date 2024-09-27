@@ -1,0 +1,14 @@
+.anchor-btn{
+    text-decoration: none;
+    color: white;
+   
+}
+.anchor-btn:hover{
+    color: white;
+}
+.image-align{
+    height: 250px;
+}
+.project:hover{
+    box-shadow: 10px -15px 10px green;
+}
