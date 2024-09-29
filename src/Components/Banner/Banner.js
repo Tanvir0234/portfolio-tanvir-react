@@ -22,7 +22,7 @@ const Banner = () => {
                         <a href="#contact">
                             <button className="btn btn-outline-success me-3 mt-3 text-success" >Hire Me</button>
                         </a>
-                        <a href="https://drive.google.com/file/d/1Hcj6l_LVxzCTIWZz-f3EregPW3ww1gIz/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1cN7JPQTewQuNbEIvy_I8BfXKCUuneT38/view?usp=sharing">
                             <button className="btn btn-success mt-3 text-white"><FaFileDownload></FaFileDownload> Download Resume</button></a>
                     </div>
                 </div>
